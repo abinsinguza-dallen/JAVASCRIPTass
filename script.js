@@ -57,10 +57,10 @@ class Mkulima {
   let MkulimaPlatform= new Mkulima()
   MkulimaPlatform.addFarm("200","Grapes farm","Dallen","0785857494","Jinja,Kampala")
   MkulimaPlatform.addFarm("300","wheat farm","speria","0785949345","kihihi,Kanungu")
-  
-  
-  MkulimaPlatform.updateFarm("200","150","maize farm","sarah","0734567832","Nyanga")
-  
+  MkulimaPlatform.updateFarm("250","150","maize farm","sarah","0734567832","Nyanga")
+  MkulimaPlatform.updateFarm("270","150","maize farm","sarah","0734567832","Nyanga")
+  MkulimaPlatform.updateFarm("230","150","maize farm","sarah","0734567832","Nyanga")
+
   console.log(MkulimaPlatform.farms)
   
   MkulimaPlatform.getFarm("150")
